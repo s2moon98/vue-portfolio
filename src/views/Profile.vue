@@ -8,14 +8,14 @@
                 <card shadow class="card-profile mt--300" no-body>
                     <div class="px-4">
                         <div class="text-center mt-5">
-                            <h2>문지은</h2>
+                            <h1>문지은</h1>
                             <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Moon Jieun</div>
                             <div class="h5 mt-4"><i class="ni business_briefcase-24 mr-2"></i>백엔드 개발자 Backend Engineer</div>
                         </div>
                         <div class="mt-5 py-5 border-top">
                             <div class="row justify-content-center">
                                 <div class="col-lg-9">
-                                  <h5 class="text-primary text-uppercase font-weight-bold">Contact Information</h5>
+                                  <h4 class="text-primary text-uppercase font-weight-bold">Contact Information</h4>
                                   <table>
                                     <tr>
                                       <th>Email</th>
@@ -41,8 +41,11 @@
                 </card>
             </div>
         </section>
+
+      <!--Skills-->
         <section class="section section-lg pt-lg-0">
           <div class="container">
+            <h3 class="text-primary text-uppercase font-weight-bold">Skills</h3>
             <div class="row justify-content-center">
               <div class="col-lg-12">
                 <div class="row row-grid">
@@ -92,11 +95,63 @@
             </div>
           </div>
         </section>
+
+      <!--Work Experience-->
+      <section class="section section-lg pt-lg-0">
+        <div class="container">
+          <h3 class="text-primary text-uppercase font-weight-bold">Work Experience</h3>
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="row row-grid">
+                <div class="col-lg-4">
+                  <card shadow class="card-profile mt--300" no-body>
+                    <div class="px-4">
+
+                    </div>
+                  </card>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Side Project-->
+      <section class="section section-lg pt-lg-0">
+        <div class="container">
+          <h3 class="text-primary text-uppercase font-weight-bold">Side Project</h3>
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="row row-grid">
+                <div class="col-lg-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Education-->
+      <section class="section section-lg pt-lg-0">
+        <div class="container">
+          <h3 class="text-primary text-uppercase font-weight-bold">Education</h3>
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="row row-grid">
+                <div class="col-lg-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 </template>
+
 <script>
 export default {};
 </script>
+
 <style>
 th, td {
   padding: 5px;
